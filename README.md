@@ -57,10 +57,10 @@ python webcam_test/webcam_detect.py
 
 | Model | Dataset | Accuracy |
 |--------|---------|----------|
-| **CNN** | FER | % |
-| **CNN** | AffectNet | % |
-| **ViT Transformer** | FER | % |
-| **ViT Transformer** | AffectNet | % |
+| **CNN** | FER | 60.37% |
+| **CNN** | AffectNet | 66% |
+| **ViT Transformer** | FER | 87.0% |
+| **ViT Transformer** | AffectNet | 57.0% |
 
 *(Replace `XX%` with actual results from your experiments.)*  
 
