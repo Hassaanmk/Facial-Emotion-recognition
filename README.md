@@ -15,37 +15,36 @@ This repository contains **Facial Emotion Recognition (FER)** models trained on 
   [ViT-Facial-Expression-Recognition](https://huggingface.co/motheecreator/vit-Facial-Expression-Recognition)  
 - Evaluated performance on **FER** and **AffectNet** datasets.  
 
- **Real-time Facial Expression Detection**  
+ ## Real-time Facial Expression Detection  
 - Implemented real-time webcam-based emotion recognition.  
 - Uses **OpenCV** and a trained model for live inference.  
 
 
-## ** Getting Started**  
+## Getting Started  
 
-### **🔹 1. Clone the Repository**  
+###  1. Clone the Repository  
 ```bash
 git clone https://github.com/Hassaanmk/Facial-Emotion-recognition.git
 cd Facial-Emotion-recognition
 ```
 
-### **🔹 2. Install Dependencies**  
+###  2. Install Dependencies  
 Ensure you have Python and the required libraries installed:  
 ```bash
 pip install -r requirements.txt
-```
-*(If you don’t have a `requirements.txt`, you can manually install packages like `torch`, `torchvision`, `opencv-python`, `transformers`, and `numpy`.)*  
+```  
 
-### **🔹 3. Training CNN Models**  
+###  3. Training CNN Models  
 Run training scripts inside the **FER training** or **AffectNet training** folders:  
 
 
-### **🔹 4. Running ViT Model on FER and AffectNet**  
+###  4. Running ViT Model on FER and AffectNet 
 Inside the `VIT Transformer` folder, run:  
 ```bash
 python vit_evaluate.py
 ```
 
-### **🔹 5. Real-time Facial Expression Detection**  
+###  5. Real-time Facial Expression Detection
 Run the webcam-based detection script:  
 ```bash
 python webcam_test/webcam_detect.py
@@ -53,7 +52,7 @@ python webcam_test/webcam_detect.py
 
 
 
-## **📊 Model Performance**  
+## Model Performance  
 
 | Model | Dataset | Accuracy |
 |--------|---------|----------|
@@ -66,14 +65,14 @@ python webcam_test/webcam_detect.py
 
 
 
-## ** Datasets Used**  
+## Datasets Used
 
 - **[FER Dataset](https://www.kaggle.com/datasets/msambare/fer2013)**  
 - **[AffectNet Dataset](https://www.researchgate.net/publication/315159311_AffectNet_A_Database_for_Facial_Expression_Valence_and_Arousal_Computing_in_the_Wild)**  
 
 
 
-## **References & Acknowledgments**  
+## References & Acknowledgments
 
 - Hugging Face Pretrained ViT Model: [ViT-Facial-Expression-Recognition](https://huggingface.co/motheecreator/vit-Facial-Expression-Recognition)  
 - OpenCV for real-time webcam-based inference  
@@ -81,11 +80,11 @@ python webcam_test/webcam_detect.py
 
 
 
-## **Future Improvements**  
+## Future Improvements 
 
-🔸 Implement **attention-based mechanisms** to improve ViT accuracy.  
-🔸 Experiment with **ResNet** and **EfficientNet** architectures.  
-🔸 Deploy as a **web application** or **mobile app**.  
+- Implement **attention-based mechanisms** to improve ViT accuracy.  
+- Experiment with **ResNet** and **EfficientNet** architectures.  
+- Deploy as a **web application** or **mobile app**.  
 
 
 
