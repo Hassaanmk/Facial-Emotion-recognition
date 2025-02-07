@@ -61,7 +61,7 @@ python webcam_test/webcam_detect.py
 | **ViT Transformer** | FER | 87.0% |
 | **ViT Transformer** | AffectNet | 57.0% |
 
-*(Replace `XX%` with actual results from your experiments.)*  
+  
 
 
 
