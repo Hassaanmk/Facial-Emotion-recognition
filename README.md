@@ -47,7 +47,7 @@ python model_huggingface.py
 ###  5. Real-time Facial Expression Detection
 Run the webcam-based detection script:  
 ```bash
-python webcam_test/webcam_detect.py
+python webcam_test/webcam_test.py
 ```
 
 
