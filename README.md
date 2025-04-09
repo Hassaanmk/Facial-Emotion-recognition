@@ -41,7 +41,7 @@ Run training scripts inside the **FER training** or **AffectNet training** folde
 ###  4. Running ViT Model on FER and AffectNet 
 Inside the `VIT Transformer` folder, run:  
 ```bash
-python vit_evaluate.py
+python model_huggingface.py
 ```
 
 ###  5. Real-time Facial Expression Detection
